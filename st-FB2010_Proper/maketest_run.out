@@ -1,0 +1,22 @@
+
+
+
+st-FB2010_Proper
+FB-2010_samples_24_times_1hr_0.tsv
+67108864
+1.00000000000000000000
+
+Max needed input size 58590100290 bytes.
+Actual input size is 60168675000 bytes >= 58590100290 bytes.
+All is good.
+
+
+24442 jobs in the workload.
+Generating scripts ... please wait ...
+
+150 jobs written ... done.
+
+Parameter values for randomwriter_conf.xsl:
+test.randomwrite.total_bytes: 60168675000
+test.randomwrite.bytes_per_map: 57303500
+

@@ -1,0 +1,93 @@
+17/08/17 06:33:33 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/17 06:33:33 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+Max number of map tasks 150
+Max number of red tasks 30
+shuffleInputRatio  = 0.09716669
+outputShuffleRatio = 7.633371E-4
+Running on 15 nodes with 135 maps and 2 reduces.
+0.3573265621357504
+0.6317307618109052
+Job started: Thu Aug 17 06:33:35 MDT 2017
+17/08/17 06:33:35 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/17 06:33:35 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/17 06:33:35 INFO mapred.FileInputFormat: Total input paths to process : 22
+17/08/17 06:33:35 INFO mapreduce.JobSubmitter: number of splits:44
+17/08/17 06:33:36 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1502972680406_0113
+17/08/17 06:33:36 INFO impl.YarnClientImpl: Submitted application application_1502972680406_0113
+17/08/17 06:33:36 INFO mapreduce.Job: The url to track the job: http://node-1:8088/proxy/application_1502972680406_0113/
+17/08/17 06:33:36 INFO mapreduce.Job: Running job: job_1502972680406_0113
+17/08/17 06:33:43 INFO mapreduce.Job: Job job_1502972680406_0113 running in uber mode : false
+17/08/17 06:33:43 INFO mapreduce.Job:  map 0% reduce 0%
+17/08/17 06:33:51 INFO mapreduce.Job:  map 45% reduce 0%
+17/08/17 06:33:52 INFO mapreduce.Job:  map 50% reduce 0%
+17/08/17 06:33:55 INFO mapreduce.Job:  map 68% reduce 0%
+17/08/17 06:33:56 INFO mapreduce.Job:  map 100% reduce 0%
+17/08/17 06:34:04 INFO mapreduce.Job:  map 100% reduce 50%
+17/08/17 06:34:05 INFO mapreduce.Job:  map 100% reduce 66%
+17/08/17 06:34:09 INFO mapreduce.Job:  map 100% reduce 86%
+17/08/17 06:34:12 INFO mapreduce.Job:  map 100% reduce 100%
+17/08/17 06:34:17 INFO mapreduce.Job: Job job_1502972680406_0113 completed successfully
+17/08/17 06:34:17 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=157951872
+		FILE: Number of bytes written=321374272
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1729065976
+		HDFS: Number of bytes written=127716
+		HDFS: Number of read operations=182
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Job Counters 
+		Launched map tasks=44
+		Launched reduce tasks=2
+		Data-local map tasks=37
+		Rack-local map tasks=7
+		Total time spent by all maps in occupied slots (ms)=323596
+		Total time spent by all reduces in occupied slots (ms)=33281
+		Total time spent by all map tasks (ms)=323596
+		Total time spent by all reduce tasks (ms)=33281
+		Total vcore-seconds taken by all map tasks=323596
+		Total vcore-seconds taken by all reduce tasks=33281
+		Total megabyte-seconds taken by all map tasks=331362304
+		Total megabyte-seconds taken by all reduce tasks=34079744
+	Map-Reduce Framework
+		Map input records=14763958
+		Map output records=1435926
+		Map output bytes=155080008
+		Map output materialized bytes=157952388
+		Input split bytes=4752
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1435926
+		Reduce shuffle bytes=157952388
+		Reduce input records=1435926
+		Reduce output records=1089
+		Spilled Records=2871852
+		Shuffled Maps =88
+		Failed Shuffles=0
+		Merged Map outputs=88
+		GC time elapsed (ms)=12198
+		CPU time spent (ms)=286980
+		Physical memory (bytes) snapshot=12479799296
+		Virtual memory (bytes) snapshot=41871437824
+		Total committed heap usage (bytes)=9081192448
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	org.apache.hadoop.examples.WorkGen$Counters
+		MAP_BYTES_WRITTEN=143592600
+		MAP_RECORDS_WRITTEN=1435926
+		RED_BYTES_WRITTEN=108900
+		RED_RECORDS_WRITTEN=1089
+	File Input Format Counters 
+		Bytes Read=1729061224
+	File Output Format Counters 
+		Bytes Written=127716
+Job ended: Thu Aug 17 06:34:17 MDT 2017
+The job took 42 seconds.

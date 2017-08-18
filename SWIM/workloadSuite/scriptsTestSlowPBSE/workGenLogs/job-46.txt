@@ -1,0 +1,199 @@
+17/05/01 22:53:15 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/05/01 22:53:16 INFO client.RMProxy: Connecting to ResourceManager at node-0/10.1.1.2:8032
+Max number of map tasks 30
+Max number of red tasks 6
+shuffleInputRatio  = 1.7869763E-5
+outputShuffleRatio = 1.0
+Running on 3 nodes with 27 maps and 1 reduces.
+0.15370047377862173
+0.31082500108500366
+Job started: Mon May 01 22:53:16 MDT 2017
+17/05/01 22:53:17 INFO client.RMProxy: Connecting to ResourceManager at node-0/10.1.1.2:8032
+17/05/01 22:53:17 INFO client.RMProxy: Connecting to ResourceManager at node-0/10.1.1.2:8032
+17/05/01 22:53:17 INFO hdfs.DFSClient: @huanke messageHK: TimeHK: 113 MessageHK 
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Pipe nodes are {0=pc519.emulab.net, 2=pc511.emulab.net, 1=pc509.emulab.net}
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 0 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 228454886 flag: 0 flag: 0 flag: 0 ackTime: 1493700797508 ackTime: 1493700797678 ackTime: 1493700797727 transferTimeToNext: "0$$pc519.emulab.net$0" transferTimeToNext: "0$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 36 acumulatedTime: 206 acumulatedTime: 255 containing 3 timestamps
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700797508
+17/05/01 22:53:17 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+17/05/01 22:53:17 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.jar block BP-434175006-155.98.38.101-1493697107839:blk_1073742261_1437,5,main]
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700797678
+17/05/01 22:53:17 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.jar block BP-434175006-155.98.38.101-1493697107839:blk_1073742261_1437,5,main]
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700797727
+17/05/01 22:53:17 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.jar block BP-434175006-155.98.38.101-1493697107839:blk_1073742261_1437,5,main]
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=8255, elapsedNanos=36], pc509.emulab.net=HdfsWriteData [bytesWritten=8255, elapsedNanos=206], pc511.emulab.net=HdfsWriteData [bytesWritten=8255, elapsedNanos=255]}
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 1 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 30455924 flag: 0 flag: 0 flag: 0 ackTime: 1493700797814 ackTime: 1493700797841 ackTime: 1493700797842 transferTimeToNext: "1$$pc519.emulab.net$0" transferTimeToNext: "1$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 306 acumulatedTime: 163 acumulatedTime: 115 containing 3 timestamps
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700797814
+17/05/01 22:53:17 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.jar block BP-434175006-155.98.38.101-1493697107839:blk_1073742261_1437,5,main]
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700797841
+17/05/01 22:53:17 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.jar block BP-434175006-155.98.38.101-1493697107839:blk_1073742261_1437,5,main]
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700797842
+17/05/01 22:53:17 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.jar block BP-434175006-155.98.38.101-1493697107839:blk_1073742261_1437,5,main]
+17/05/01 22:53:17 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=8259, elapsedNanos=342], pc509.emulab.net=HdfsWriteData [bytesWritten=8259, elapsedNanos=369], pc511.emulab.net=HdfsWriteData [bytesWritten=8259, elapsedNanos=370]}
+17/05/01 22:53:17 INFO mapred.FileInputFormat: Total input paths to process : 1
+17/05/01 22:53:17 INFO net.NetworkTopology: Adding a new node: /default-rack/10.1.1.3:50010
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf isLeaf: true numOfExcludedLeaves: 1 isLeafParent(): false
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf child: /default-rack children.size(): 1excludedNode: null
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf child: /default-rack numOfLeaves: 1
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf isLeaf: true numOfExcludedLeaves: 1 isLeafParent(): true
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf children: [/default-rack/10.1.1.3:50010] excludedNode: null excludedIndex(): -1
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf children: [/default-rack/10.1.1.3:50010] leafIndex: 0 children.get(leafIndex): /default-rack/10.1.1.3:50010
+17/05/01 22:53:17 INFO net.NetworkTopology: @counter i:0 children.get(i).getName(): 10.1.1.3:50010 children.get(i).getLevel(): 2 children.get(i).getParent(): /default-rack children.get(i).getNetworkLocation(): /default-rack
+17/05/01 22:53:17 INFO net.NetworkTopology: Adding a new node: /default-rack/10.1.1.4:50010
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf isLeaf: true numOfExcludedLeaves: 1 isLeafParent(): false
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf child: /default-rack children.size(): 1excludedNode: null
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf child: /default-rack numOfLeaves: 2
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf isLeaf: true numOfExcludedLeaves: 1 isLeafParent(): true
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf children: [/default-rack/10.1.1.3:50010, /default-rack/10.1.1.4:50010] excludedNode: null excludedIndex(): -1
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf children: [/default-rack/10.1.1.3:50010, /default-rack/10.1.1.4:50010] leafIndex: 0 children.get(leafIndex): /default-rack/10.1.1.3:50010
+17/05/01 22:53:17 INFO net.NetworkTopology: @counter i:0 children.get(i).getName(): 10.1.1.3:50010 children.get(i).getLevel(): 2 children.get(i).getParent(): /default-rack children.get(i).getNetworkLocation(): /default-rack
+17/05/01 22:53:17 INFO net.NetworkTopology: @counter i:1 children.get(i).getName(): 10.1.1.4:50010 children.get(i).getLevel(): 2 children.get(i).getParent(): /default-rack children.get(i).getNetworkLocation(): /default-rack
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf isLeaf: true numOfExcludedLeaves: 1 isLeafParent(): false
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf child: /default-rack children.size(): 1excludedNode: null
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf child: /default-rack numOfLeaves: 2
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf isLeaf: true numOfExcludedLeaves: 1 isLeafParent(): true
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf children: [/default-rack/10.1.1.3:50010, /default-rack/10.1.1.4:50010] excludedNode: null excludedIndex(): -1
+17/05/01 22:53:17 INFO net.NetworkTopology: @getLeaf children: [/default-rack/10.1.1.3:50010, /default-rack/10.1.1.4:50010] leafIndex: 1 children.get(leafIndex): /default-rack/10.1.1.4:50010
+17/05/01 22:53:17 INFO net.NetworkTopology: @counter i:0 children.get(i).getName(): 10.1.1.3:50010 children.get(i).getLevel(): 2 children.get(i).getParent(): /default-rack children.get(i).getNetworkLocation(): /default-rack
+17/05/01 22:53:17 INFO net.NetworkTopology: @counter i:1 children.get(i).getName(): 10.1.1.4:50010 children.get(i).getLevel(): 2 children.get(i).getParent(): /default-rack children.get(i).getNetworkLocation(): /default-rack
+17/05/01 22:53:17 INFO net.NetworkTopology: Adding a new node: /default-rack/10.1.1.5:50010
+17/05/01 22:53:18 INFO hdfs.DFSClient: @huanke messageHK: TimeHK: 96 MessageHK 
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Pipe nodes are {0=pc519.emulab.net, 2=pc511.emulab.net, 1=pc509.emulab.net}
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 0 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 49672310 flag: 0 flag: 0 flag: 0 ackTime: 1493700798043 ackTime: 1493700798092 ackTime: 1493700798092 transferTimeToNext: "0$$pc519.emulab.net$0" transferTimeToNext: "0$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 1 acumulatedTime: 50 acumulatedTime: 50 containing 3 timestamps
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700798043
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.split block BP-434175006-155.98.38.101-1493697107839:blk_1073742262_1438,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700798092
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.split block BP-434175006-155.98.38.101-1493697107839:blk_1073742262_1438,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700798092
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.split block BP-434175006-155.98.38.101-1493697107839:blk_1073742262_1438,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=231, elapsedNanos=1], pc509.emulab.net=HdfsWriteData [bytesWritten=231, elapsedNanos=50], pc511.emulab.net=HdfsWriteData [bytesWritten=231, elapsedNanos=50]}
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 1 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 48767069 flag: 0 flag: 0 flag: 0 ackTime: 1493700798096 ackTime: 1493700798142 ackTime: 1493700798143 transferTimeToNext: "1$$pc519.emulab.net$0" transferTimeToNext: "1$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 53 acumulatedTime: 50 acumulatedTime: 51 containing 3 timestamps
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700798096
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.split block BP-434175006-155.98.38.101-1493697107839:blk_1073742262_1438,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700798142
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.split block BP-434175006-155.98.38.101-1493697107839:blk_1073742262_1438,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700798143
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.split block BP-434175006-155.98.38.101-1493697107839:blk_1073742262_1438,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=235, elapsedNanos=54], pc509.emulab.net=HdfsWriteData [bytesWritten=235, elapsedNanos=100], pc511.emulab.net=HdfsWriteData [bytesWritten=235, elapsedNanos=101]}
+17/05/01 22:53:18 INFO hdfs.DFSClient: @huanke messageHK: TimeHK: 54 MessageHK 
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Pipe nodes are {0=pc509.emulab.net, 2=pc511.emulab.net, 1=pc519.emulab.net}
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 0 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 48312567 flag: 0 flag: 0 flag: 0 ackTime: 1493700798244 ackTime: 1493700798244 ackTime: 1493700798244 transferTimeToNext: "0$$pc509.emulab.net$0" transferTimeToNext: "0$$pc519.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 1 acumulatedTime: 48 acumulatedTime: 48 containing 3 timestamps
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700798244
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.splitmetainfo block BP-434175006-155.98.38.101-1493697107839:blk_1073742263_1439,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700798244
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.splitmetainfo block BP-434175006-155.98.38.101-1493697107839:blk_1073742263_1439,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700798244
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.splitmetainfo block BP-434175006-155.98.38.101-1493697107839:blk_1073742263_1439,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=110, elapsedNanos=48], pc509.emulab.net=HdfsWriteData [bytesWritten=110, elapsedNanos=1], pc511.emulab.net=HdfsWriteData [bytesWritten=110, elapsedNanos=48]}
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 1 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 47068516 flag: 0 flag: 0 flag: 0 ackTime: 1493700798294 ackTime: 1493700798295 ackTime: 1493700798295 transferTimeToNext: "1$$pc509.emulab.net$0" transferTimeToNext: "1$$pc519.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 50 acumulatedTime: 51 acumulatedTime: 50 containing 3 timestamps
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700798294
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.splitmetainfo block BP-434175006-155.98.38.101-1493697107839:blk_1073742263_1439,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700798295
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.splitmetainfo block BP-434175006-155.98.38.101-1493697107839:blk_1073742263_1439,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700798295
+17/05/01 22:53:18 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.splitmetainfo block BP-434175006-155.98.38.101-1493697107839:blk_1073742263_1439,5,main]
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=114, elapsedNanos=99], pc509.emulab.net=HdfsWriteData [bytesWritten=114, elapsedNanos=51], pc511.emulab.net=HdfsWriteData [bytesWritten=114, elapsedNanos=98]}
+17/05/01 22:53:18 INFO mapreduce.JobSubmitter: number of splits:2
+17/05/01 22:53:18 INFO hdfs.DFSClient: @huanke messageHK: TimeHK: 50 MessageHK 
+17/05/01 22:53:18 INFO hdfs.DFSClient: @Cesar: Pipe nodes are {0=pc511.emulab.net, 2=pc519.emulab.net, 1=pc509.emulab.net}
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 0 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 1059069829 flag: 0 flag: 0 flag: 0 ackTime: 1493700798615 ackTime: 1493700799086 ackTime: 1493700799624 transferTimeToNext: "0$$pc511.emulab.net$0" transferTimeToNext: "0$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 3 acumulatedTime: 474 acumulatedTime: 1036 containing 3 timestamps
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700798615
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700799086
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 0 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700799624
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=65020, elapsedNanos=1036], pc509.emulab.net=HdfsWriteData [bytesWritten=65020, elapsedNanos=474], pc511.emulab.net=HdfsWriteData [bytesWritten=65020, elapsedNanos=3]}
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 1 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 1326232498 flag: 0 flag: 0 flag: 0 ackTime: 1493700798615 ackTime: 1493700799437 ackTime: 1493700799936 transferTimeToNext: "1$$pc511.emulab.net$0" transferTimeToNext: "1$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 0 acumulatedTime: 350 acumulatedTime: 311 containing 3 timestamps
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700798615
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700799437
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 1 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700799936
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=100183, elapsedNanos=1347], pc509.emulab.net=HdfsWriteData [bytesWritten=100183, elapsedNanos=824], pc511.emulab.net=HdfsWriteData [bytesWritten=100183, elapsedNanos=3]}
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing ack seqno: 2 reply: SUCCESS reply: SUCCESS reply: SUCCESS downstreamAckTimeNanos: 47814326 flag: 0 flag: 0 flag: 0 ackTime: 1493700799943 ackTime: 1493700799943 ackTime: 1493700799943 transferTimeToNext: "2$$pc511.emulab.net$1" transferTimeToNext: "2$$pc509.emulab.net$0" transferTimeToNext: "-" acumulatedTime: 1328 acumulatedTime: 505 acumulatedTime: 7 containing 3 timestamps
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 2 on DatanodeInfoWithStorage[10.1.1.5:50010,DS-3d2d756b-311f-45a0-94c9-36d0ea57f20a,DISK] with status: SUCCESS and timestamp 1493700799943
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 2 on DatanodeInfoWithStorage[10.1.1.3:50010,DS-994585f1-4fd6-4c0b-81be-726de07a901e,DISK] with status: SUCCESS and timestamp 1493700799943
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Processing packet 2 on DatanodeInfoWithStorage[10.1.1.4:50010,DS-5e9d4aad-764d-4a00-9b42-71bcc29f7031,DISK] with status: SUCCESS and timestamp 1493700799943
+17/05/01 22:53:19 INFO mortbay.log: @Cesar: Streamer is Thread[DataStreamer for file /tmp/hadoop-yarn/staging/hsgucare/.staging/job_1493697566835_0048/job.xml block BP-434175006-155.98.38.101-1493697107839:blk_1073742264_1440,5,main]
+17/05/01 22:53:19 INFO hdfs.DFSClient: @Cesar: Acum time: {pc519.emulab.net=HdfsWriteData [bytesWritten=100187, elapsedNanos=1354], pc509.emulab.net=HdfsWriteData [bytesWritten=100187, elapsedNanos=1329], pc511.emulab.net=HdfsWriteData [bytesWritten=100187, elapsedNanos=1331]}
+17/05/01 22:53:20 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1493697566835_0048
+17/05/01 22:53:20 INFO impl.YarnClientImpl: Submitted application application_1493697566835_0048
+17/05/01 22:53:20 INFO mapreduce.Job: The url to track the job: http://node-0:8088/proxy/application_1493697566835_0048/
+17/05/01 22:53:20 INFO mapreduce.Job: Running job: job_1493697566835_0048
+17/05/01 23:19:16 INFO mapreduce.Job: Job job_1493697566835_0048 running in uber mode : false
+17/05/01 23:19:16 INFO mapreduce.Job:  map 0% reduce 0%
+17/05/01 23:19:22 INFO mapreduce.Job:  map 2% reduce 0%
+17/05/01 23:19:24 INFO mapreduce.Job:  map 100% reduce 0%
+17/05/01 23:19:29 INFO mapreduce.Job:  map 100% reduce 100%
+17/05/01 23:19:31 INFO mapreduce.Job: Job job_1493697566835_0048 completed successfully
+17/05/01 23:19:32 INFO mapreduce.Job: Counters: 56
+	File System Counters
+		FILE: Number of bytes read=1766
+		FILE: Number of bytes written=362838
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=78593790
+		HDFS: Number of bytes written=1952
+		HDFS: Number of read operations=11
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=11303
+		Total time spent by all reduces in occupied slots (ms)=3256
+		Total time spent by all map tasks (ms)=11303
+		Total time spent by all reduce tasks (ms)=3256
+		Total vcore-seconds taken by all map tasks=11303
+		Total vcore-seconds taken by all reduce tasks=3256
+		Total megabyte-seconds taken by all map tasks=11574272
+		Total megabyte-seconds taken by all reduce tasks=3334144
+	Map-Reduce Framework
+		Map input records=671089
+		Map output records=16
+		Map output bytes=1728
+		Map output materialized bytes=1772
+		Input split bytes=216
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=16
+		Reduce shuffle bytes=1772
+		Reduce input records=16
+		Reduce output records=16
+		Spilled Records=32
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=470
+		CPU time spent (ms)=10370
+		Physical memory (bytes) snapshot=732893184
+		Virtual memory (bytes) snapshot=2545434624
+		Total committed heap usage (bytes)=588251136
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	org.apache.hadoop.examples.WorkGen$Counters
+		MAP_BYTES_WRITTEN=1600
+		MAP_RECORDS_WRITTEN=16
+		RED_BYTES_WRITTEN=1600
+		RED_RECORDS_WRITTEN=16
+	File Input Format Counters 
+		Bytes Read=78593574
+	File Output Format Counters 
+		Bytes Written=1952
+	org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl$TaskVerdict
+		ORIGINAL_WIN=2
+	org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl$Topo
+		Ff_nn=2
+Job ended: Mon May 01 23:19:32 MDT 2017
+The job took 1575 seconds.

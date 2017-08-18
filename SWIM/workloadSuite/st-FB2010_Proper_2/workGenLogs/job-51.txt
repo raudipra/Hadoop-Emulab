@@ -1,0 +1,90 @@
+17/08/17 22:02:13 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+Max number of map tasks 150
+Max number of red tasks 30
+shuffleInputRatio  = 0.0016091708
+outputShuffleRatio = 0.012021699
+Running on 15 nodes with 135 maps and 1 reduces.
+0.40835659791459744
+0.9746246842358678
+Job started: Thu Aug 17 22:02:14 MDT 2017
+17/08/17 22:02:14 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/17 22:02:14 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/17 22:02:14 INFO mapred.FileInputFormat: Total input paths to process : 7
+17/08/17 22:02:15 INFO mapreduce.JobSubmitter: number of splits:14
+17/08/17 22:02:15 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1503028541463_0054
+17/08/17 22:02:15 INFO impl.YarnClientImpl: Submitted application application_1503028541463_0054
+17/08/17 22:02:15 INFO mapreduce.Job: The url to track the job: http://node-1:8088/proxy/application_1503028541463_0054/
+17/08/17 22:02:15 INFO mapreduce.Job: Running job: job_1503028541463_0054
+17/08/17 22:07:54 INFO mapreduce.Job: Job job_1503028541463_0054 running in uber mode : false
+17/08/17 22:07:54 INFO mapreduce.Job:  map 0% reduce 0%
+17/08/17 22:08:01 INFO mapreduce.Job:  map 7% reduce 0%
+17/08/17 22:08:02 INFO mapreduce.Job:  map 50% reduce 0%
+17/08/17 22:08:04 INFO mapreduce.Job:  map 64% reduce 0%
+17/08/17 22:08:05 INFO mapreduce.Job:  map 93% reduce 0%
+17/08/17 22:08:06 INFO mapreduce.Job:  map 100% reduce 0%
+17/08/17 22:08:10 INFO mapreduce.Job:  map 100% reduce 100%
+17/08/17 22:08:10 INFO mapreduce.Job: Job job_1503028541463_0054 completed successfully
+17/08/17 22:08:10 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=822256
+		FILE: Number of bytes written=3413849
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=550157356
+		HDFS: Number of bytes written=12492
+		HDFS: Number of read operations=59
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=14
+		Launched reduce tasks=1
+		Data-local map tasks=10
+		Rack-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=100212
+		Total time spent by all reduces in occupied slots (ms)=5773
+		Total time spent by all map tasks (ms)=100212
+		Total time spent by all reduce tasks (ms)=5773
+		Total vcore-seconds taken by all map tasks=100212
+		Total vcore-seconds taken by all reduce tasks=5773
+		Total megabyte-seconds taken by all map tasks=102617088
+		Total megabyte-seconds taken by all reduce tasks=5911552
+	Map-Reduce Framework
+		Map input records=4697623
+		Map output records=7475
+		Map output bytes=807300
+		Map output materialized bytes=822334
+		Input split bytes=1512
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=7475
+		Reduce shuffle bytes=822334
+		Reduce input records=7475
+		Reduce output records=106
+		Spilled Records=14950
+		Shuffled Maps =14
+		Failed Shuffles=0
+		Merged Map outputs=14
+		GC time elapsed (ms)=2344
+		CPU time spent (ms)=84220
+		Physical memory (bytes) snapshot=3964497920
+		Virtual memory (bytes) snapshot=13764489216
+		Total committed heap usage (bytes)=2971140096
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	org.apache.hadoop.examples.WorkGen$Counters
+		MAP_BYTES_WRITTEN=747500
+		MAP_RECORDS_WRITTEN=7475
+		RED_BYTES_WRITTEN=10600
+		RED_RECORDS_WRITTEN=106
+	File Input Format Counters 
+		Bytes Read=550155844
+	File Output Format Counters 
+		Bytes Written=12492
+Job ended: Thu Aug 17 22:08:10 MDT 2017
+The job took 356 seconds.
