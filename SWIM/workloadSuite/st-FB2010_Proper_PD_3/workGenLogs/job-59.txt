@@ -1,0 +1,94 @@
+17/08/18 21:27:17 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/08/18 21:27:18 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+Max number of map tasks 150
+Max number of red tasks 30
+shuffleInputRatio  = 0.0014352686
+outputShuffleRatio = 0.011567236
+Running on 15 nodes with 135 maps and 1 reduces.
+0.9858880959671839
+0.31715168790688364
+Job started: Fri Aug 18 21:27:19 MDT 2017
+17/08/18 21:27:19 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/18 21:27:19 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/18 21:27:20 INFO mapred.FileInputFormat: Total input paths to process : 8
+17/08/18 21:27:20 INFO mapreduce.JobSubmitter: number of splits:16
+17/08/18 21:27:20 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1503112625968_0060
+17/08/18 21:27:21 INFO impl.YarnClientImpl: Submitted application application_1503112625968_0060
+17/08/18 21:27:21 INFO mapreduce.Job: The url to track the job: http://node-1:8088/proxy/application_1503112625968_0060/
+17/08/18 21:27:21 INFO mapreduce.Job: Running job: job_1503112625968_0060
+17/08/18 21:49:53 INFO mapreduce.Job: Job job_1503112625968_0060 running in uber mode : false
+17/08/18 21:49:53 INFO mapreduce.Job:  map 0% reduce 0%
+17/08/18 21:50:01 INFO mapreduce.Job:  map 25% reduce 0%
+17/08/18 21:50:02 INFO mapreduce.Job:  map 44% reduce 0%
+17/08/18 21:50:03 INFO mapreduce.Job:  map 56% reduce 0%
+17/08/18 21:50:04 INFO mapreduce.Job:  map 81% reduce 0%
+17/08/18 21:50:05 INFO mapreduce.Job:  map 88% reduce 0%
+17/08/18 21:50:06 INFO mapreduce.Job:  map 94% reduce 0%
+17/08/18 21:50:11 INFO mapreduce.Job:  map 100% reduce 0%
+17/08/18 21:50:16 INFO mapreduce.Job:  map 100% reduce 100%
+17/08/18 21:50:17 INFO mapreduce.Job: Job job_1503112625968_0060 completed successfully
+17/08/18 21:50:17 INFO mapreduce.Job: Counters: 55
+	File System Counters
+		FILE: Number of bytes read=842826
+		FILE: Number of bytes written=3693155
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=628751264
+		HDFS: Number of bytes written=11100
+		HDFS: Number of read operations=67
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=17
+		Launched reduce tasks=1
+		Data-local map tasks=12
+		Rack-local map tasks=5
+		Total time spent by all maps in occupied slots (ms)=130446
+		Total time spent by all reduces in occupied slots (ms)=12303
+		Total time spent by all map tasks (ms)=130446
+		Total time spent by all reduce tasks (ms)=12303
+		Total vcore-seconds taken by all map tasks=130446
+		Total vcore-seconds taken by all reduce tasks=12303
+		Total megabyte-seconds taken by all map tasks=133576704
+		Total megabyte-seconds taken by all reduce tasks=12598272
+	Map-Reduce Framework
+		Map input records=5368712
+		Map output records=7662
+		Map output bytes=827496
+		Map output materialized bytes=842916
+		Input split bytes=1728
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=7662
+		Reduce shuffle bytes=842916
+		Reduce input records=7662
+		Reduce output records=94
+		Spilled Records=15324
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=2812
+		CPU time spent (ms)=93310
+		Physical memory (bytes) snapshot=4500365312
+		Virtual memory (bytes) snapshot=15541096448
+		Total committed heap usage (bytes)=3370123264
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	org.apache.hadoop.examples.WorkGen$Counters
+		MAP_BYTES_WRITTEN=766200
+		MAP_RECORDS_WRITTEN=7662
+		RED_BYTES_WRITTEN=9400
+		RED_RECORDS_WRITTEN=94
+	File Input Format Counters 
+		Bytes Read=628749536
+	File Output Format Counters 
+		Bytes Written=11100
+Job ended: Fri Aug 18 21:50:17 MDT 2017
+The job took 1377 seconds.

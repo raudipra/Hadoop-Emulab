@@ -1,0 +1,268 @@
+17/08/18 20:59:52 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+Max number of map tasks 150
+Max number of red tasks 30
+shuffleInputRatio  = 1.6408635
+outputShuffleRatio = 0.60875624
+Running on 15 nodes with 135 maps and 3 reduces.
+0.5886071506755206
+0.8914767016877951
+Job started: Fri Aug 18 20:59:53 MDT 2017
+17/08/18 20:59:53 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/18 20:59:53 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/18 20:59:54 INFO mapred.FileInputFormat: Total input paths to process : 69
+17/08/18 20:59:54 INFO mapreduce.JobSubmitter: number of splits:138
+17/08/18 20:59:55 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1503110767417_0120
+17/08/18 20:59:55 INFO impl.YarnClientImpl: Submitted application application_1503110767417_0120
+17/08/18 20:59:55 INFO mapreduce.Job: The url to track the job: http://node-1:8088/proxy/application_1503110767417_0120/
+17/08/18 20:59:55 INFO mapreduce.Job: Running job: job_1503110767417_0120
+17/08/18 21:00:01 INFO mapreduce.Job: Job job_1503110767417_0120 running in uber mode : false
+17/08/18 21:00:01 INFO mapreduce.Job:  map 0% reduce 0%
+17/08/18 21:00:10 INFO mapreduce.Job:  map 49% reduce 0%
+17/08/18 21:00:11 INFO mapreduce.Job:  map 50% reduce 0%
+17/08/18 21:00:13 INFO mapreduce.Job:  map 61% reduce 0%
+17/08/18 21:00:14 INFO mapreduce.Job:  map 80% reduce 0%
+17/08/18 21:00:17 INFO mapreduce.Job:  map 82% reduce 0%
+17/08/18 21:00:18 INFO mapreduce.Job:  map 90% reduce 0%
+17/08/18 21:00:19 INFO mapreduce.Job:  map 95% reduce 0%
+17/08/18 21:00:20 INFO mapreduce.Job:  map 98% reduce 0%
+17/08/18 21:00:21 INFO mapreduce.Job:  map 100% reduce 0%
+17/08/18 21:00:23 INFO mapreduce.Job:  map 100% reduce 3%
+17/08/18 21:00:23 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000000_0, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#1
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+17/08/18 21:00:24 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000001_0, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#5
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+17/08/18 21:00:29 INFO mapreduce.Job:  map 100% reduce 4%
+17/08/18 21:00:32 INFO mapreduce.Job:  map 100% reduce 6%
+17/08/18 21:00:36 INFO mapreduce.Job:  map 100% reduce 9%
+17/08/18 21:00:37 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000000_1, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#1
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+17/08/18 21:00:37 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000001_1, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#1
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+17/08/18 21:00:38 INFO mapreduce.Job:  map 100% reduce 5%
+17/08/18 21:00:38 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000002_0, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#2
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+17/08/18 21:00:39 INFO mapreduce.Job:  map 100% reduce 0%
+17/08/18 21:00:50 INFO mapreduce.Job:  map 100% reduce 1%
+17/08/18 21:00:51 INFO mapreduce.Job:  map 100% reduce 5%
+17/08/18 21:00:52 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000001_2, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#4
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+17/08/18 21:00:53 INFO mapreduce.Job:  map 100% reduce 4%
+17/08/18 21:00:54 INFO mapreduce.Job:  map 100% reduce 5%
+17/08/18 21:00:56 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000000_2, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#2
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+17/08/18 21:00:57 INFO mapreduce.Job:  map 100% reduce 3%
+17/08/18 21:01:00 INFO mapreduce.Job:  map 100% reduce 4%
+17/08/18 21:01:04 INFO mapreduce.Job:  map 100% reduce 5%
+17/08/18 21:01:06 INFO mapreduce.Job:  map 100% reduce 7%
+17/08/18 21:01:07 INFO mapreduce.Job:  map 100% reduce 8%
+17/08/18 21:01:10 INFO mapreduce.Job:  map 100% reduce 10%
+17/08/18 21:01:11 INFO mapreduce.Job: Task Id : attempt_1503110767417_0120_r_000002_1, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#3
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:56)
+	at org.apache.hadoop.io.BoundedByteArrayOutputStream.<init>(BoundedByteArrayOutputStream.java:46)
+	at org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.<init>(InMemoryMapOutput.java:63)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.unconditionalReserve(MergeManagerImpl.java:304)
+	at org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.reserve(MergeManagerImpl.java:294)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyMapOutput(Fetcher.java:514)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:336)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+17/08/18 21:01:12 INFO mapreduce.Job:  map 100% reduce 4%
+17/08/18 21:01:13 INFO mapreduce.Job:  map 100% reduce 6%
+17/08/18 21:01:15 INFO mapreduce.Job:  map 100% reduce 100%
+17/08/18 21:01:15 INFO mapreduce.Job: Job job_1503110767417_0120 failed with state FAILED due to: Task failed task_1503110767417_0120_r_000001
+Job failed as tasks failed. failedMaps:0 failedReduces:1
+
+17/08/18 21:01:15 INFO mapreduce.Job: Counters: 41
+	File System Counters
+		FILE: Number of bytes read=7137229790
+		FILE: Number of bytes written=15511216268
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=5422979652
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=552
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Failed reduce tasks=9
+		Killed reduce tasks=1
+		Launched map tasks=138
+		Launched reduce tasks=10
+		Data-local map tasks=120
+		Rack-local map tasks=18
+		Total time spent by all maps in occupied slots (ms)=1446180
+		Total time spent by all reduces in occupied slots (ms)=164970
+		Total time spent by all map tasks (ms)=1446180
+		Total time spent by all reduce tasks (ms)=164970
+		Total vcore-seconds taken by all map tasks=1446180
+		Total vcore-seconds taken by all reduce tasks=164970
+		Total megabyte-seconds taken by all map tasks=1480888320
+		Total megabyte-seconds taken by all reduce tasks=168929280
+	Map-Reduce Framework
+		Map input records=46305141
+		Map output records=75979441
+		Map output bytes=8205779628
+		Map output materialized bytes=8357740994
+		Input split bytes=14904
+		Combine input records=0
+		Spilled Records=140858504
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=60889
+		CPU time spent (ms)=1517780
+		Physical memory (bytes) snapshot=37204566016
+		Virtual memory (bytes) snapshot=126393532416
+		Total committed heap usage (bytes)=27615821824
+	org.apache.hadoop.examples.WorkGen$Counters
+		MAP_BYTES_WRITTEN=7597944100
+		MAP_RECORDS_WRITTEN=75979441
+	File Input Format Counters 
+		Bytes Read=5422964748
+Exception in thread "main" java.io.IOException: Job failed!
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:865)
+	at org.apache.hadoop.examples.WorkGen.run(WorkGen.java:279)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.hadoop.examples.WorkGen.main(WorkGen.java:290)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)

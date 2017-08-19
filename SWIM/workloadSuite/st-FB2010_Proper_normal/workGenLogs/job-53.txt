@@ -1,0 +1,94 @@
+17/08/18 20:55:08 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+Max number of map tasks 150
+Max number of red tasks 30
+shuffleInputRatio  = 1.7869763E-5
+outputShuffleRatio = 507320.53
+Running on 15 nodes with 135 maps and 8 reduces.
+0.6780410241790815
+0.8046663249940764
+Job started: Fri Aug 18 20:55:09 MDT 2017
+17/08/18 20:55:09 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/18 20:55:09 INFO client.RMProxy: Connecting to ResourceManager at node-1/10.1.1.3:8032
+17/08/18 20:55:09 INFO mapred.FileInputFormat: Total input paths to process : 1
+17/08/18 20:55:09 INFO net.NetworkTopology: Adding a new node: /default-rack/10.1.1.4:50010
+17/08/18 20:55:09 INFO net.NetworkTopology: Adding a new node: /default-rack/10.1.1.13:50010
+17/08/18 20:55:09 INFO net.NetworkTopology: Adding a new node: /default-rack/10.1.1.17:50010
+17/08/18 20:55:09 INFO mapreduce.JobSubmitter: number of splits:2
+17/08/18 20:55:10 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1503110767417_0054
+17/08/18 20:55:10 INFO impl.YarnClientImpl: Submitted application application_1503110767417_0054
+17/08/18 20:55:10 INFO mapreduce.Job: The url to track the job: http://node-1:8088/proxy/application_1503110767417_0054/
+17/08/18 20:55:10 INFO mapreduce.Job: Running job: job_1503110767417_0054
+17/08/18 20:55:30 INFO mapreduce.Job: Job job_1503110767417_0054 running in uber mode : false
+17/08/18 20:55:30 INFO mapreduce.Job:  map 0% reduce 0%
+17/08/18 20:55:38 INFO mapreduce.Job:  map 50% reduce 0%
+17/08/18 20:55:39 INFO mapreduce.Job:  map 100% reduce 0%
+17/08/18 20:55:45 INFO mapreduce.Job:  map 100% reduce 13%
+17/08/18 20:55:46 INFO mapreduce.Job:  map 100% reduce 38%
+17/08/18 20:55:49 INFO mapreduce.Job:  map 100% reduce 75%
+17/08/18 20:55:50 INFO mapreduce.Job:  map 100% reduce 87%
+17/08/18 20:55:51 INFO mapreduce.Job:  map 100% reduce 99%
+17/08/18 20:55:54 INFO mapreduce.Job:  map 100% reduce 100%
+17/08/18 20:55:56 INFO mapreduce.Job: Job job_1503110767417_0054 completed successfully
+17/08/18 20:55:56 INFO mapreduce.Job: Counters: 53
+	File System Counters
+		FILE: Number of bytes read=1588
+		FILE: Number of bytes written=1179170
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=78593790
+		HDFS: Number of bytes written=831780608
+		HDFS: Number of read operations=32
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=16
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=8
+		Rack-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=13790
+		Total time spent by all reduces in occupied slots (ms)=64266
+		Total time spent by all map tasks (ms)=13790
+		Total time spent by all reduce tasks (ms)=64266
+		Total vcore-seconds taken by all map tasks=13790
+		Total vcore-seconds taken by all reduce tasks=64266
+		Total megabyte-seconds taken by all map tasks=14120960
+		Total megabyte-seconds taken by all reduce tasks=65808384
+	Map-Reduce Framework
+		Map input records=671089
+		Map output records=14
+		Map output bytes=1512
+		Map output materialized bytes=1636
+		Input split bytes=216
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14
+		Reduce shuffle bytes=1636
+		Reduce input records=14
+		Reduce output records=7102485
+		Spilled Records=28
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=1924
+		CPU time spent (ms)=79370
+		Physical memory (bytes) snapshot=1911009280
+		Virtual memory (bytes) snapshot=9217200128
+		Total committed heap usage (bytes)=1990197248
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	org.apache.hadoop.examples.WorkGen$Counters
+		MAP_BYTES_WRITTEN=1400
+		MAP_RECORDS_WRITTEN=14
+		RED_BYTES_WRITTEN=710248500
+		RED_RECORDS_WRITTEN=7102485
+	File Input Format Counters 
+		Bytes Read=78593574
+	File Output Format Counters 
+		Bytes Written=831780608
+Job ended: Fri Aug 18 20:55:56 MDT 2017
+The job took 46 seconds.
