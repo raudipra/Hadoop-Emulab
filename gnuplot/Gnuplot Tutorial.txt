@@ -20,7 +20,8 @@ set style line 2 dt 1 lc rgb "green" lw 3
 set style line 3 dt 3 lc rgb "green" lw 3
 set style line 4 dt 1 lc rgb "blue" lw 3
 set yrange [0.6:1]
+set xrange [0:3500]
 set ylabel 'Ratio of Jobs'                              # x-axis label
 set xlabel 'Time'                          # y-axis label
-set output "SWIM-Comparasion-CDF-3.eps"
-plot 'CDFResultOriginal2.txt' using 1:2 ls 1 title "Original Test" with lines, 'CDFResultPBSE.txt' using 1:2 ls 2 title "PBSE Test" with lines, 'CDFResultPD2.txt' using 1:2 ls 3 title "Path Diversity Test" with lines
+set output "SWIM-Comparasion-CDF-Final.eps"
+plot 'CDFResultSlowedOriginal2.txt' using 1:2 ls 1 title "BaseSE-slow" with lines, 'CDFResultSlowedPBSE.txt' using 1:2 ls 2 title "PBSE" with lines, 'CDFResultSlowedPD3.txt' using 1:2 ls 3 title "RM Diversity (no PBSE)" with lines, 'CDFResultOriginal.txt' using 1:2 ls 4 title "BaseSE-noslow" with lines
